@@ -1,3 +1,7 @@
+:root {
+    --bg: rgba(129, 129, 129, 0.133);
+}
+
 @media (min-width: 768px) {
     .nav-link.border-sm {
         position: relative; 
@@ -22,3 +26,19 @@
 .navbar-toggler:focus {
     box-shadow: none;
   }
+.ps-6 {
+    padding-left: 8rem !important;
+}
+.vh-custom {
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .vh-custom {
+        height: auto;
+    }
+}
+
+.bg-custom {
+    background-color: var(--bg);
+}
