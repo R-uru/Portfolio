@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="custom.css">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="custom.css" />
 </head>
+
 <body>
-<!-- 🍔 Hamburger Navar ko -->
- <nav class="navbar navbar-expand-md bg-custom">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="logo.png" alt="logo" class="ms-5" style="width: 50px; height: auto"></a>
-        <!-- 🍔 -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Pages -->
-         <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ms-auto fw-semibold">
-                <li class="nav-item"><a class="mx-4 nav-link border-top border-bottom border-sm" href="#">About</a></li>
-                <li class="nav-item"><a class="mx-4 nav-link border-bottom border-sm" href="#">Contact</a></li>
-                <li class="nav-item"><a class="mx-4 nav-link border-bottom border-sm" href="#">Services</a></li>
-                <li class="nav-item"><a class="mx-4 nav-link border-bottom border-sm" href="#">Background</a></li>
-            </ul>
-         </div>
+    <!-- 🍔 Hamburger Navar ko -->
+    <nav class="navbar navbar-expand-md bg-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt="logo" class="ms-5"
+                    style="width: 50px; height: auto" /></a>
+            <!-- 🍔 -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Pages -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto fw-semibold">
+                    <li class="nav-item">
+                        <a class="mx-4 nav-link border-top border-bottom border-sm" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="mx-4 nav-link border-bottom border-sm" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="mx-4 nav-link border-bottom border-sm" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="mx-4 nav-link border-bottom border-sm" href="#">Background</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <div class="container-fluid p-4">
-        <div class="row">
-            <div class="col-12 col-lg-6"><img src="img/Ruru.png" alt="Ruru" class="img-fluid w-100"></div>
-            <div class="col-12 col-lg-6">
-                <div class="d-flex flex-column justify-content-center align-items-center vh-custom">
-                    <p class="align-self-start fs-4 ms-2">Hi, I am</p>
-                    <p class="display-1 fw-normal">Russell James R. Mapacpac</p>
+    <div class="container-fluid m-0 p-0">
+        <div class="container-fluid w-75">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 d-flex justify-content-center h-100">
+                    <img src="img/Ruru.png" alt="Ruru" class="img-fluid w-custom h-100 object-fit-cover mb-3" />
+                </div>
+                <div class="col-12 col-lg-6 h-100">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                        <p class="align-self-start fs-4 ms-2 text-center">Hi, I'm</p>
+                        <p class="display-1 fw-normal">Russell James R. Mapacpac</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+    <div class="container-fluid bg-custom m-0 p-0">
+        <div class="container-fluid w-75 p-5">
+            <h2>About me</h2>
+        </div>
+    </div>
 
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
