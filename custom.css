@@ -1,6 +1,5 @@
 :root {
-  --bg: rgba(129, 129, 129, 0.059);
-  --bg-darker: rgb(231, 231, 231);
+  --bg: rgba(129, 129, 129, 0.162);
 }
 body {
     background-color: #fcfcfc;
@@ -35,10 +34,33 @@ body {
 .w-custom {
     width: 90% !important;
 }
-.bg-darker {
-    background-color: var(--bg-darker);
-}
 .fa,
 .fa-solid {
   margin-right: 10px;
+}
+.fa-brands {
+  margin-left: 10px;
+}
+
+/* Progress circle */
+.progress-ring {
+  transform: rotate(-90deg);
+}
+.progress-ring-bg {
+  fill: none;
+  stroke: #e9ecef;
+  stroke-width: 5;
+}
+.progress-ring-fill {
+  fill: none;
+  stroke: #007bff;
+  stroke-width: 10;
+  stroke-dasharray: 377;
+  stroke-dashoffset: 377;
+}
+.progress-text {
+  font-size: 24px;
+  font-weight: bold;
+  fill: #ffffff;
+  transform: rotate(90deg);
 }

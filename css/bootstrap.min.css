@@ -6736,6 +6736,7 @@ fieldset:disabled .btn {
     -webkit-mask-position: -200% 0%;
     mask-position: -200% 0%;
   }
+  
 }
 .clearfix::after {
   display: block;
