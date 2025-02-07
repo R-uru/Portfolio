@@ -38,3 +38,7 @@ body {
 .bg-darker {
     background-color: var(--bg-darker);
 }
+.fa,
+.fa-solid {
+  margin-right: 10px;
+}
