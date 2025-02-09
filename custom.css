@@ -70,10 +70,14 @@ body {
 
 /* font resizer  */
 .flexi-text {
-  font-size: clamp(12px, 2vw, 20px);
+  font-size: clamp(12px, 1.5vw, 18px) !important;
   text-align: justify; 
 }
+.flexi-title {
+  font-size: clamp(12px, 2vw, 22px) !important;
+  font-weight: 600;
+}
 .name {
-  font-size: clamp(12px, 5vw, 70px);
+  font-size: clamp(12px, 5vw, 70px) !important;
   font-weight: 600;
 }
