@@ -1,5 +1,5 @@
 function setProgress(circle, text, targetPercent, delay) {
-  let circumference = 2 * Math.PI * 40;
+  let circumference = 2 * Math.PI * 50;
   let currentPercent = 0;
   let intervalTime = 20;
   let step = targetPercent / (1000 / intervalTime);
@@ -27,5 +27,5 @@ progressBars.forEach((svg, index) => {
   let circle = svg.querySelector(".progress-ring-fill");
   let text = svg.querySelector(".progress-text");
   setProgress(circle, text, values[index], delay);
-  delay += 500;
+  delay += 2000;
 });
