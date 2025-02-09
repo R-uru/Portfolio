@@ -44,6 +44,8 @@ body {
 
 /* Progress circle */
 .progress-ring {
+  width: 100%;
+  max-width: 120px;
   transform: rotate(-90deg);
 }
 .progress-ring-bg {
@@ -59,8 +61,19 @@ body {
   stroke-dashoffset: 377;
 }
 .progress-text {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   fill: #ffffff;
   transform: rotate(90deg);
+  dominant-baseline: middle;
+}
+
+/* font resizer  */
+.flexi-text {
+  font-size: clamp(12px, 2vw, 20px);
+  text-align: justify; 
+}
+.name {
+  font-size: clamp(12px, 5vw, 70px);
+  font-weight: 600;
 }
