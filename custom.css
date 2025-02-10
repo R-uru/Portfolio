@@ -81,3 +81,13 @@ body {
   font-size: clamp(12px, 5vw, 70px) !important;
   font-weight: 600;
 }
+
+/* slider  */
+.fa-slider {
+  color: rgb(0, 0, 0);
+}
+
+/* .img-size {
+  width: 50px;
+  height: auto;
+} */
