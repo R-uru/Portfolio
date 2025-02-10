@@ -87,7 +87,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-/* .img-size {
-  width: 50px;
+.img-size {
+  width: clamp(40vw, 10vw, 500px)  !important;
   height: auto;
-} */
+}
