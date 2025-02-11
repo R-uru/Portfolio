@@ -13,8 +13,8 @@
 <body>
   <!-- 🍔 Hamburger Navar ko -->
   <nav class="navbar navbar-expand-md bg-custom" id="home">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="https://www.facebook.com/ruruonfb" target="_blank"><img src="logo.png" alt="logo"
+    <div class="container-fluid nav-active">
+      <a class="navbar-brand" href="index.html" target="_blank"><img src="logo.png" alt="logo"
           class="ms-5" style="width: 50px; height: auto" /></a>
       <!-- 🍔 -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ms-auto fw-semibold flexi-text">
           <li class="nav-item">
-            <a class="mx-4 nav-link border-top border-bottom border-sm" href="#"><i
+            <a class="mx-4 nav-link border-top border-bottom border-sm active" href="#"><i
                 class="fa fa-solid fa-house d-md-none" aria-hidden="true"></i>Home</a>
           </li>
           <li class="nav-item">
@@ -72,7 +72,7 @@
     <div class="container-fluid w-75 py-4">
       <h2 class="flexi-title"><i class="fa-solid fa-circle-info fa-fade"></i>About me</h2>
       <div class="container-fluid d-flex">
-        <p class="flexi-text px-3">
+        <p class="flexi-text px-3 justify">
           Hi I am
           <span class="fw-semibold" title="Pogi ng PMFTCI">Russell James R. Mapacpac</span>, from BSIT- 2A. I am really
           passionate
@@ -85,7 +85,7 @@
       <div class="container-fluid d-flex align-items-center justify-content-center">
         <div class="row container-fluid d-flex align-items-center justify-content-center">
           <div class="my-2 col-6 col-sm-5 col-xs-12 col-md-5 col-lg-4 col-xl-4 col-xxl-2">
-            <div class="text-bg-secondary rounded-2">
+            <div class="text-bg-secondary rounded-2 shadow-lg">
               <p class="d-flex align-items-center fw-semibold flexi-text">
                 <i class="fa-brands fa-python fa py-2"></i>Python
               </p>
@@ -101,7 +101,7 @@
 
 
           <div class="my-2 col-6 col-sm-5 col-xs-12 col-md-5 col-lg-4 col-xl-4 col-xxl-2">
-            <div class="text-bg-secondary rounded-2">
+            <div class="text-bg-secondary rounded-2 shadow-lg">
               <p class="d-flex align-items-center fw-semibold flexi-text">
                 <i class="fa-brands fa-html5 fa py-2"></i>HTML
               </p>
@@ -116,7 +116,7 @@
           </div>
 
           <div class="my-2 col-6 col-sm-5 col-xs-12 col-md-5 col-lg-4 col-xl-4 col-xxl-2">
-            <div class="text-bg-secondary rounded-2">
+            <div class="text-bg-secondary rounded-2 shadow-lg">
               <p class="d-flex align-items-center fw-semibold flexi-text">
                 <i class="fa-brands fa-css3-alt fa py-2"></i>CSS
               </p>
@@ -131,7 +131,7 @@
           </div>
 
           <div class="my-2 col-6 col-sm-5 col-xs-12 col-md-5 col-lg-4 col-xl-4 col-xxl-2">
-            <div class="text-bg-secondary rounded-2">
+            <div class="text-bg-secondary rounded-2 shadow-lg">
               <p class="d-flex align-items-center fw-semibold flexi-text">
                 <i class="fa-brands fa-js fa py-2"></i>JS
               </p>
@@ -146,7 +146,7 @@
           </div>
 
           <div class="my-2 col-6 col-sm-5 col-xs-12 col-md-5 col-lg-4 col-xl-4 col-xxl-2">
-            <div class="text-bg-secondary rounded-2">
+            <div class="text-bg-secondary rounded-2 shadow-lg">
               <p class="d-flex align-items-center fw-semibold flexi-text">
                 <i class="fa-brands fa-java fa py-2"></i>Java
               </p>
@@ -161,7 +161,7 @@
           </div>
 
           <div class="my-2 col-6 col-sm-5 col-xs-12 col-md-5 col-lg-4 col-xl-4 col-xxl-2">
-            <div class="text-bg-secondary rounded-2">
+            <div class="text-bg-secondary rounded-2 shadow-lg">
               <p class="d-flex align-items-center fw-semibold flexi-text">
                 <i class="fa-brands fa-linux fa py-2"></i>Linux
               </p>
@@ -236,18 +236,10 @@
   <!-- footer 🦶 -->
   <footer class="text-bg-dark text-white pt-5 pb-4 flexi-text">
     <div class="container">
-      <div class="row">
-        <!-- About Section -->
-        <div class="col-md-4 mb-4">
-          <h5 class="text-uppercase mb-4 flexi-title">About Us</h5>
-          <p>
-            We are a creative team dedicated to building the best solutions for our clients. Our mission is to deliver
-            high-quality products and services.
-          </p>
-        </div>
+      <div class="row text-md-center">
 
         <!-- Quick Links Section -->
-        <div class="col-md-2 mb-4">
+        <div class="col-md-4 mb-4">
           <h5 class="text-uppercase mb-4 flexi-title">Quick Links</h5>
           <ul class="list-unstyled">
             <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
@@ -270,14 +262,14 @@
               <i class="fas fa-phone me-2"></i>(+63)963 4042 107
             </li>
             <li class="mb-2">
-              <i class="fas fa-envelope me-2"></i><a href="mailto:email@example.com"
+              <i class="fas fa-envelope me-2"></i><a href="mailto:russelljamesmapacpac12@gmail.com"
                 class="text-white text-break">russelljamesmapacpac12@gmail.com</a>
             </li>
           </ul>
         </div>
 
         <!-- Social Media Section -->
-        <div class="col-md-2 mb-4">
+        <div class="col-md-4 mb-4">
           <h5 class="text-uppercase mb-4 flexi-title">Follow Us</h5>
           <ul class="list-unstyled">
             <li class="mb-2">

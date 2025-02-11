@@ -29,3 +29,20 @@ progressBars.forEach((svg, index) => {
   setProgress(circle, text, values[index], delay);
   delay += 2000;
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const navLinks = document.querySelectorAll('.nav-link.border-sm');
+  let activeNav = document.querySelector('.active');
+  navLinks.forEach(link => {
+      link.addEventListener('mouseenter', () => {
+          document.querySelector('.active')?.classList.remove('active');
+          link.classList.add('active');
+      });
+
+      link.addEventListener('mouseleave', () => {
+          document.querySelector('.active')?.classList.remove('active');
+          activeNav.classList.add('active');
+      });
+  });
+});
