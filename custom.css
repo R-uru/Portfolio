@@ -67,7 +67,6 @@ body {
   transform: rotate(90deg);
   dominant-baseline: middle;
 }
-
 /* font resizer  */
 .flexi-text {
   font-size: clamp(12px, 1.5vw, 18px) !important;
@@ -87,5 +86,5 @@ body {
   }
 }
 .my-custom {
-  padding:200px 0;
+  padding:200px 40px;
 }

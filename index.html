@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,10 +9,9 @@
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="custom.css" />
 </head>
-
 <body>
   <!-- 🍔 Hamburger Navar ko -->
-  <nav class="navbar navbar-expand-md bg-custom">
+  <nav class="navbar navbar-expand-md bg-custom" id="home">
     <div class="container-fluid">
       <a class="navbar-brand" href="https://www.facebook.com/ruruonfb" target="_blank"><img src="logo.png" alt="logo"
           class="ms-5" style="width: 50px; height: auto" /></a>
@@ -184,30 +182,30 @@
         <div class="d-flex flex-column align-items-center">
           <div id="certificateCarousel" class="carousel slide w-100" data-bs-ride="carousel">
             <div class="container-fluid d-flex align-items-center justify-content-center img-sizes">
-              <div class="carousel-inner shadow-lg rounded-5">
+              <div class="carousel-inner shadow-lg rounded-4">
                 <div class="carousel-item active">
-                  <img src="img/slider/1.jpg" class="d-block w-100 rounded-5" alt="Certificate 1">
+                  <img src="img/slider/1.jpg" class="d-block w-100 rounded-4" alt="Certificate 1">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/slider/2.jpg" class="d-block w-100 rounded-5" alt="Certificate 2">
+                  <img src="img/slider/2.jpg" class="d-block w-100 rounded-4" alt="Certificate 2">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/slider/3.jpg" class="d-block w-100 rounded-5" alt="Certificate 3">
+                  <img src="img/slider/3.jpg" class="d-block w-100 rounded-4" alt="Certificate 3">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/slider/4.jpg" class="d-block w-100 rounded-5" alt="Certificate 4">
+                  <img src="img/slider/4.jpg" class="d-block w-100 rounded-4" alt="Certificate 4">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/slider/5.jpg" class="d-block w-100 rounded-5" alt="Certificate 5">
+                  <img src="img/slider/5.jpg" class="d-block w-100 rounded-4" alt="Certificate 5">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#certificateCarousel"
                 data-bs-slide="prev">
-                <i class="fa-solid fa-angles-left fa-2xl fa-beat-fade fa-slider text-dark"></i>
+                <i class="fa-solid fa-angles-left fa-2xl fa-beat-fade fa-slider text-dark flexi-title"></i>
               </button>
               <button class="carousel-control-next" type="button" data-bs-target="#certificateCarousel"
                 data-bs-slide="next">
-                <i class="fa-solid fa-angles-right fa-2xl fa-beat-fade fa-slider text-dark"></i>
+                <i class="fa-solid fa-angles-right fa-2xl fa-beat-fade fa-slider text-dark flexi-title"></i>
               </button>
             </div>
           </div>
@@ -238,6 +236,7 @@
         <div class="col-md-2 mb-4">
           <h5 class="text-uppercase mb-4 flexi-title">Quick Links</h5>
           <ul class="list-unstyled">
+            <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
             <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
             <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
             <li><a href="services.html" class="text-white text-decoration-none">Service</a></li>
