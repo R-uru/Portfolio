@@ -35,14 +35,31 @@ document.addEventListener("DOMContentLoaded", () => {
   const navLinks = document.querySelectorAll('.nav-link.border-sm');
   let activeNav = document.querySelector('.active');
   navLinks.forEach(link => {
-      link.addEventListener('mouseenter', () => {
-          document.querySelector('.active')?.classList.remove('active');
-          link.classList.add('active');
-      });
+    link.addEventListener('mouseenter', () => {
+      document.querySelector('.active')?.classList.remove('active');
+      link.classList.add('active');
+    });
 
-      link.addEventListener('mouseleave', () => {
-          document.querySelector('.active')?.classList.remove('active');
-          activeNav.classList.add('active');
-      });
+    link.addEventListener('mouseleave', () => {
+      document.querySelector('.active')?.classList.remove('active');
+      activeNav.classList.add('active');
+    });
   });
+});
+
+
+// Get the button
+const backToTopButton = document.getElementById("backToTop");
+
+window.onscroll = function () {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+};
+
+backToTopButton.addEventListener("click", function () {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 });

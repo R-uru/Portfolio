@@ -13,8 +13,8 @@
 <body>
   <nav class="navbar navbar-expand-md bg-custom" id="home">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="logo.png" alt="logo"
-          class="ms-5" style="width: 50px; height: auto" /></a>
+      <a class="navbar-brand" href="index.html"><img src="logo.png" alt="logo" class="ms-5"
+          style="width: 50px; height: auto" /></a>
       <!-- 🍔 -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
         <span class="navbar-toggler-icon"></span>
@@ -53,30 +53,51 @@
   </nav>
 
   <!-- Services Section -->
-  <div class="container my-5 my-custom">
-    <h1 class="text-center mb-4">Our Services</h1>
+  <div class="container my-5 my-custom" id="accordion">
+    <h1 class="text-center mb-4">My Services</h1>
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Service 1</h5>
-            <p class="card-text">Description of Service 1. We provide the best solutions for your needs.</p>
+            <a class="collapsed btn text-bg-secondary w-100" data-bs-toggle="collapse" href="#collapseOne">
+              🚀 Web Development
+            </a>
+            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+              <div class="card-body">
+                Crafting responsive, high-performance websites tailored to your needs. From sleek business sites to
+                custom web applications, we bring your ideas to life with modern design and robust functionality.
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Service 2</h5>
-            <p class="card-text">Description of Service 2. Our team is dedicated to delivering excellence.</p>
+            <a class="collapsed btn text-bg-secondary w-100" data-bs-toggle="collapse" href="#collapseTwo">
+              🎨 Thumbnail Editing
+            </a>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Make your content stand out with eye-catching, high-conversion thumbnails. Whether it's for YouTube,
+                blogs, or social media, we ensure visually appealing and engaging designs.
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Service 3</h5>
-            <p class="card-text">Description of Service 3. We ensure quality and reliability in every project.</p>
+            <a class="collapsed btn text-bg-secondary w-100" data-bs-toggle="collapse" href="#collapseThree">
+              🖌️ Photo Manipulation
+            </a>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Transform and enhance images like never before. From background removal and retouching to surreal
+                effects, we deliver professional-quality photo editing with precision and creativity.
+              </div>
+            </div>
           </div>
         </div>
       </div>
