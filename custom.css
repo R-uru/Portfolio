@@ -26,9 +26,6 @@ body {
     border-bottom: 2px solid #000000;
   }
 }
-
-
-
 .navbar-toggler:focus {
   box-shadow: none;
 }
@@ -90,9 +87,6 @@ body {
   .img-sizes {
     max-width: 800px;
   }
-}
-.my-custom {
-  padding:200px 40px;
 }
 .carousel-indicators {
   margin-bottom: 0.2rem;
